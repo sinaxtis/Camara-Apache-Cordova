@@ -6,16 +6,74 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <title>Hello Photo</title>
+        <!-- Theme CSS -->
+    	<link href="css/freelancer.min.css" rel="stylesheet">
+        <title>Attached Girlfriend</title>
     </head>
     <body>
-    <div class="row">
-        <button id="takePhoto" class="btn-primary">Take Photo</button> <button id="sendPhoto" class="btn-success">Send Photo</button><br>
-        <img class="img-fluid" id="Photo" src=""  height="120px" />
+    
+    <body id="page-top" class="index" style="background: #18BC9C;">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Attached Girlfriend</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#maincontent"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-xl-12 col-sm-12 col-md-12">
+    				<button id="takePhoto" class="btn btn-primary">Take Photo</button>
+        			<img class="img-responsive"  id="Photo" src="" />
+        			<div id="coord"></div>
+        			<div class="col-xl-5 col-sm-5 col-md-5">
+        	 			<button id="sendPhoto" class="btn btn-primary">Send Photo</button>
+        	 		</div><br>
+        	 		<div class="col-xl-5 col-sm-5 col-md-5">
+        	 			<button id="cancelPhoto" class="btn btn-primary">Cancel Photo</button>
+        	 		</div>
+    			</div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="js/freelancer.min.js"></script>
     </body>
 </html>

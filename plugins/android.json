@@ -12,6 +12,9 @@
         },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.photo"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.photo"
         }
     },
     "dependent_plugins": {
